@@ -11,8 +11,8 @@ import Link from "next/link";
 
 // components
 import Button from "@/components/Button";
-import Me from "@/public/image/me.jpg";
-import MeAbout from "@/public/image/me2.jpg";
+import Me from "@/public/image/me.jpeg";
+import MeAbout from "@/public/image/me2.jpeg";
 import Setup from "@/public/image/setup.jpg";
 import ProjectAll from "@/public/image/projects.png";
 import Hr from "@/components/Hr";
