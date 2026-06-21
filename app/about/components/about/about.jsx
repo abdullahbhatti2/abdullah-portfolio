@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Card from "./spotify/card";
 import { motion } from "framer-motion";
-import Me1 from "@/public/image/me1.jpg";
+import Me1 from "@/public/image/me1.jpeg";
 import Me2 from "@/public/image/me2.jpg";
-import Me3 from "@/public/image/me3.jpg";
+import Me3 from "@/public/image/me3.jpeg";
 import Hr from "@/components/Hr";
 
 function Title() {
@@ -35,7 +35,7 @@ export default function About() {
 								className="w-full h-full">
 								<Image
 									src={Me1}
-									alt="Alvalens"
+									alt="Abdullah"
 									layout="fill"
 									objectFit="cover"
 									placeholder="blur"
@@ -58,7 +58,7 @@ export default function About() {
 								className="w-full h-full">
 								<Image
 									src={Me2}
-									alt="Alvalens"
+									alt="Abdullah"
 									layout="fill"
 									objectFit="cover"
 									placeholder="blur"
@@ -83,7 +83,7 @@ export default function About() {
 								className="w-full h-full">
 								<Image
 									src={Me3}
-									alt="Alvalens"
+									alt="Abdullah"
 									layout="fill"
 									objectFit="cover"
 									placeholder="blur"
@@ -108,36 +108,40 @@ export default function About() {
 						type: "spring",
 					}}>
 					<h2 className="text-2xl font-bold tracking-wider mb-3">
-						Alvalen Shafelbilyunazra
+						Muhammad Abdullah Naeem
 					</h2>
 					<p className="text-gray-600 text-justify title text-lg">
-						Hey there, I&rsquo;m Alvalen Shafelbilyunazra, a
+						Full-stack developer experienced in
 						<span className="text-black font-medium">
 							{" "}
-							passionate Web Developer
-						</span>{" "}
-						with a growing expertise in
+							React, Next.js, Express, and Django/DRF
+						</span>
+						, building scalable web applications end-to-end. Skilled in developing
+						robust
 						<span className="text-black font-medium">
 							{" "}
-							Artificial Intelligence.
-						</span>{" "}
-						Hailing from Pasuruan, East Java, Indonesia, I&rsquo;m currently
-						pursuing my degree in{" "}
+							REST APIs, responsive UIs
+						</span>
+						, and integrating
 						<span className="text-black font-medium">
-							Computer Science
+							{" "}
+							AI capabilities
+						</span>{" "}
+						(speech-to-text, NLP, RAG) into production systems. Focused on clean
+						architecture, performance, and delivering
+						<span className="text-black font-medium">
+							{" "}
+							user-centric solutions
+						</span>
+						. Currently pursuing a Bachelor&rsquo;s degree in{" "}
+						<span className="text-black font-medium">
+							Information Technology
 						</span>{" "}
 						at{" "}
 						<span className="text-black font-medium">
-							Universitas Negeri Malang.
-						</span>{" "}
-						My work bridges modern web technologies and intelligent systems—from
-						building responsive, scalable websites to exploring generative AI
-						and LLM-based solutions. Beyond development, I stay curious about
-						design and emerging technologies. In today&rsquo;s ever-changing
-						digital landscape, I believe being a
-						<span className="text-black font-medium"> lifelong learner</span> is
-						essential. Let&rsquo;s connect and explore the evolving intersection
-						of web and AI together!
+							University of Education, Lahore
+						</span>
+						. Let&rsquo;s connect and build something great together!
 					</p>
 					<Card />
 				</motion.div>

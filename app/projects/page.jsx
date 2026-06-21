@@ -6,9 +6,9 @@ import Button from "@/components/Button";
 import Image from "next/image";
 
 // images
-import Intervyou1 from "@/public/image/projects/web/intervyou/intervyou-1.png";
-import Intervyou2 from "@/public/image/projects/web/intervyou/intervyou-2.png";
-import Intervyou3 from "@/public/image/projects/web/intervyou/intervyou-3.png";
+import Ielts1 from "@/public/image/projects/web/ielts mentor/ielts-1.png";
+import Ielts2 from "@/public/image/projects/web/ielts mentor/ielts-2.png";
+import Ielts3 from "@/public/image/projects/web/ielts mentor/ielts-3.png";
 import ProjectAll from "@/public/image/projects.png";
 
 import Hr from "@/components/Hr";
@@ -46,7 +46,7 @@ export default function Page() {
 							className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0 ">
 							<Image
 								src={ProjectAll}
-								alt="Alvalens"
+								alt="Abdullah"
 								layout="fill"
 								objectFit="cover"
 								placeholder="blur"
@@ -99,8 +99,8 @@ export default function Page() {
 									}}
 									className="w-full h-full shadow-lg">
 									<Image
-										src={Intervyou1}
-										alt="Alvalens"
+										src={Ielts1}
+										alt="Abdullah"
 										layout="fill"
 										objectFit="cover"
 										placeholder="blur"
@@ -123,8 +123,8 @@ export default function Page() {
 									transition={{ delay: 0.3 }}
 									className="w-full h-full shadow-lg ">
 									<Image
-										src={Intervyou3}
-										alt="Alvalens"
+										src={Ielts3}
+										alt="Abdullah"
 										layout="fill"
 										objectFit="cover"
 										placeholder="blur"
@@ -149,8 +149,8 @@ export default function Page() {
 									}}
 									className="w-full h-full shadow-lg">
 									<Image
-										src={Intervyou2}
-										alt="Alvalens"
+										src={Ielts2}
+										alt="Abdullah"
 										layout="fill"
 										objectFit="cover"
 										placeholder="blur"
@@ -174,25 +174,22 @@ export default function Page() {
 							type: "spring",
 						}}>
 						<h2 className="text-2xl font-bold tracking-wider mb-3">
-							Intervyou AI
+							IELTS AI Mentor
 						</h2>
 						<p className="text-gray-600 text-justify title text-lg">
-							AI Based interview Preparation Website created to help fresh
-							graduates and job seekers prepare for interviews and optimize
-							their CV through AI-powered features. The website is built using
-							Next.js, TypeScript, Tailwind CSS, Shadcn UI, Prisma, and MySQL
-							(TiDB). This website can comprehensively analyze the user&apos;s
-							interview performance by providing a analysis of the user&apos;s
-							answer, gesture, and material recommendation to improve the user&apos;s
-							interview skills.
+							Full-stack AI-powered IELTS preparation platform built with
+							Django/DRF and React, featuring real-time speaking evaluation
+							via the Web Speech API. Integrated the Gemini API to analyze
+							speech and written responses, generating NLP-based scoring and
+							structured feedback across IELTS band criteria.
 						</p>{" "}
 						<div className="mt-3">
 							<Button variation="primary">
-								<Link href="projects/intervyou">More</Link>
+								<Link href="projects/ielts-ai-mentor">More</Link>
 							</Button>
 							<Button variation="secondary">
 								<a
-									href="https://www.intervyou.me"
+									href="https://frontend-production-cb5d.up.railway.app/"
 									target="_blank"
 									rel="noopener noreferrer">
 									Preview

@@ -42,7 +42,7 @@ export default function Page() {
 							className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0 ">
 							<Image
 								src={Hero}
-								alt="Alvalen Shafel"
+								alt="Muhammad Abdullah Naeem"
 								layout="fill"
 								objectFit="cover"
 								placeholder="blur"
@@ -58,7 +58,7 @@ export default function Page() {
 							A brief introduction about me and{" "}
 							<span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
 								{" "}
-								my interest.
+								my skills.
 							</span>
 						</p>
 						<motion.div

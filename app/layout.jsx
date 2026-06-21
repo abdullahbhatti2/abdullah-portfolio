@@ -5,46 +5,44 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 config.autoAddCss = false;
 import "./nprogress.css";
 import { Analytics } from "@vercel/analytics/react";
-import Chat from "@/components/Chat";
+import WhatsApp from "@/components/WhatsApp";
 import ClientTopProgressBar from "@/components/ClientTopProgressBar";
 
 export const metadata = {
-    title: "Alvalens | Portofolio",
+    title: "Abdullah Naeem | Portfolio",
 
     description:
-		"My name is Alvalens, I'm a web developer and I'm passionate about it. I'm currently studying at Universitas Negeri Malang.",
+		"Muhammad Abdullah Naeem - Full-stack developer experienced in React, Next.js, Express, and Django/DRF, building scalable web applications end-to-end.",
 
-    author: "Alvalen Shafelbilyunazra",
-    siteUrl: "https://www.alvalens.my.id",
-    applicationName: "Alvalens",
+    author: "Muhammad Abdullah Naeem",
+    siteUrl: "https://www.abdullahnaeem.dev",
+    applicationName: "Abdullah Naeem Portfolio",
 
     keywords: [
-		"alvalens",
-		"alvalen",
-		"alvalen shafel",
-		"shafel",
-		"alvalen shafelbilyunazra",
-		"alvalen shafel bilyunazra",
-		"bloodfallen",
-		"alvalen porto",
-		"alvalen um",
+		"abdullah naeem",
+		"muhammad abdullah naeem",
+		"full stack developer",
+		"react developer",
+		"next.js developer",
+		"django developer",
+		"portfolio",
 	],
 
     openGraph: {
 		type: "website",
-		url: "https://www.alvalens.my.id",
-		title: "Alvalens | Portofolio",
-		site_name: "Alvalens | Portofolio",
-		description: "My name is Alvalens, This is my portofolio website.",
+		url: "https://www.abdullahnaeem.dev",
+		title: "Abdullah Naeem | Portfolio",
+		site_name: "Abdullah Naeem | Portfolio",
+		description: "Muhammad Abdullah Naeem - Full-stack developer portfolio.",
 		width: 1200,
 		height: 630,
 		images: [
 			{
 				url: "/og-image-rev.png",
-				alt: "Alvalens Portofolio",
+				alt: "Abdullah Naeem Portfolio",
 			},
 		],
-		site_name: "Alvalens | Portofolio",
+		site_name: "Abdullah Naeem | Portfolio",
 	}
 };
 
@@ -55,7 +53,7 @@ export default function RootLayout({ children }) {
 				<ClientTopProgressBar />
 				<Navbar />
 				{children}
-				<Chat />
+				<WhatsApp />
 				<Analytics />
 			</body>
 		</html>

@@ -190,14 +190,14 @@ function Page(props) {
 				</div>
 			</div>
 			{/* images */}
-			<div className="mx-auto grid grid-cols-1 p-5 md:p-20 w-full">
-				<div className="w-full h-auto text-center flex flex-col justify-center ">
+			<div className="w-full">
+				<div className="w-full flex flex-col">
 					{data.images.map((image, index) => (
 						<Image
 							key={index}
 							src={image}
 							alt={`Project Image ${index + 1}`}
-							className="mb-5 h-auto max-h-screen max-w-7xl mx-auto"
+							className="mb-5 w-full h-auto"
 							width={1920}
 							height={1080}
 							blurDataURL={BlurImage.src}
