@@ -9,17 +9,17 @@ import WhatsApp from "@/components/WhatsApp";
 import ClientTopProgressBar from "@/components/ClientTopProgressBar";
 
 export const metadata = {
-    title: "Alvalens | Portofolio",
+    title: "Abdullah | Portfolio",
 
     description:
-		"Alvalens - Full-stack developer experienced in building modern web applications.",
+		"Abdullah - Full-stack developer experienced in building modern web applications.",
 
-    author: "Alvalens",
+    author: "Abdullah",
     siteUrl: "https://alvalens.my.id",
-    applicationName: "Alvalens Portofolio",
+    applicationName: "Abdullah Portfolio",
 
     keywords: [
-		"alvalens",
+		"abdullah",
 		"full stack developer",
 		"react developer",
 		"next.js developer",
@@ -29,15 +29,15 @@ export const metadata = {
     openGraph: {
 		type: "website",
 		url: "https://alvalens.my.id",
-		title: "Alvalens | Portofolio",
-		site_name: "Alvalens | Portofolio",
-		description: "Alvalens - Full-stack developer portfolio.",
+		title: "Abdullah | Portfolio",
+		site_name: "Abdullah | Portfolio",
+		description: "Abdullah - Full-stack developer portfolio.",
 		width: 1200,
 		height: 630,
 		images: [
 			{
 				url: "/og-image-rev.png",
-				alt: "Alvalens Portofolio",
+				alt: "Abdullah Portfolio",
 			},
 		],
 	}
