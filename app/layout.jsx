@@ -25,6 +25,22 @@ export const metadata = {
 		"next.js developer",
 		"portfolio",
 	],
+
+    openGraph: {
+		type: "website",
+		url: "https://alvalens.my.id",
+		title: "Alvalens | Portofolio",
+		site_name: "Alvalens | Portofolio",
+		description: "Alvalens - Full-stack developer portfolio.",
+		width: 1200,
+		height: 630,
+		images: [
+			{
+				url: "/og-image-rev.png",
+				alt: "Alvalens Portofolio",
+			},
+		],
+	}
 };
 
 export default function RootLayout({ children }) {
