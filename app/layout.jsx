@@ -9,40 +9,37 @@ import WhatsApp from "@/components/WhatsApp";
 import ClientTopProgressBar from "@/components/ClientTopProgressBar";
 
 export const metadata = {
-    title: "Abdullah Naeem | Portfolio",
+    title: "Alvalens | Portofolio",
 
     description:
-		"Muhammad Abdullah Naeem - Full-stack developer experienced in React, Next.js, Express, and Django/DRF, building scalable web applications end-to-end.",
+		"Alvalens - Full-stack developer experienced in building modern web applications.",
 
-    author: "Muhammad Abdullah Naeem",
-    siteUrl: "https://www.abdullahnaeem.dev",
-    applicationName: "Abdullah Naeem Portfolio",
+    author: "Alvalens",
+    siteUrl: "https://alvalens.my.id",
+    applicationName: "Alvalens Portofolio",
 
     keywords: [
-		"abdullah naeem",
-		"muhammad abdullah naeem",
+		"alvalens",
 		"full stack developer",
 		"react developer",
 		"next.js developer",
-		"django developer",
 		"portfolio",
 	],
 
     openGraph: {
 		type: "website",
-		url: "https://www.abdullahnaeem.dev",
-		title: "Abdullah Naeem | Portfolio",
-		site_name: "Abdullah Naeem | Portfolio",
-		description: "Muhammad Abdullah Naeem - Full-stack developer portfolio.",
+		url: "https://alvalens.my.id",
+		title: "Alvalens | Portofolio",
+		site_name: "Alvalens | Portofolio",
+		description: "Alvalens - Full-stack developer portfolio.",
 		width: 1200,
 		height: 630,
 		images: [
 			{
 				url: "/og-image-rev.png",
-				alt: "Abdullah Naeem Portfolio",
+				alt: "Alvalens Portofolio",
 			},
 		],
-		site_name: "Abdullah Naeem | Portfolio",
 	}
 };
 
